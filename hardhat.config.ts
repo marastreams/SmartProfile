@@ -70,7 +70,7 @@ const config: HardhatUserConfig = {
       live: true,
       url: "https://mainnet.aurora.dev",
       chainId: 1313161554,
-      accounts: ["96b09741e4c8c0b26bd0b8ca56b57efd856b08931cb9c515388f15df87e74766"],  //   accounts: [privateKey1, privateKey2, ...]
+      accounts: [""],  //   accounts: [privateKey1, privateKey2, ...]
     },
     polygonMumbai: {
       live: true,
