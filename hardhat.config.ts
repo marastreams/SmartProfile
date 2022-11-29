@@ -63,7 +63,7 @@ const config: HardhatUserConfig = {
       live: true,
       url: "https://testnet.aurora.dev/",
       chainId: 1313161555,
-      accounts: ["96b09741e4c8c0b26bd0b8ca56b57efd856b08931cb9c515388f15df87e74766"]
+      accounts: ["..."]
     },
     // Near Aurora Mainnet network
     nearMainnet: {
@@ -76,13 +76,13 @@ const config: HardhatUserConfig = {
       live: true,
       url: "https://rpc-mumbai.maticvigil.com/",
       chainId: 80001,
-      accounts: ["96b09741e4c8c0b26bd0b8ca56b57efd856b08931cb9c515388f15df87e74766"]
+      accounts: ["..."]
     },
     polygonMainnet: {
       live: true,
       url: "https://rpc-mainnet.maticvigil.com/",
       chainId: 137,
-      accounts: ["96b09741e4c8c0b26bd0b8ca56b57efd856b08931cb9c515388f15df87e74766"]
+      accounts: ["..."]
     },
   },
   namedAccounts: {
